@@ -1,0 +1,117 @@
+/* MOBILE (375px) */
+    
+    nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        background-color: var(---white);
+    }
+
+    .nav-left, .nav-right {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    .bm-container, .logo-container .cart-container, .user-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bm-container:hover, .logo-container:hover, .cart-container:hover, .user-container:hover {
+        cursor: pointer;
+    }
+
+    .bm {
+        max-width: 30%;
+        margin: 0 15px;
+    }
+
+    .user {
+        max-width: 20px;
+        margin: 0 15px;
+    }
+
+    .logo {
+        max-width: 100%;
+    }
+
+    .cart {
+        max-width: 75%;
+    }
+
+    .cart-container {
+        position: relative;
+        padding: 5px;
+    }
+
+    .counter-budget {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: var(--orange);
+        color: hsl(0, 0%, 100%);
+        font-size: 10px;
+        padding: 0 6px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    /* active cart */
+
+    
+    .display-container {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        padding: 10px;
+        background-color: transparent;
+    }
+    
+    .display-cart-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: hsl(0, 0%, 100%);
+        height: 300px;       
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    }
+    
+    .cart-title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .cart-title h4 {
+        font-size: 13px;
+        margin: 20px;
+    }
+    
+    .line {
+        height: 1.5px;
+        width: 100%;
+        background-color: var(--lightGrayishBlue);
+    }
+    
+    .cart-content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .cart-content p {
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--darkGrayishBlue);
+    }
+
+
+
+   

@@ -1,0 +1,28 @@
+.counter-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 18px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    justify-content: space-around;
+    background-color: var(--lightGrayishBlue);
+    color: var(--veryDarkBlue);
+}
+
+.counter-add-btn, .counter-remove-btn {
+    border: transparent;
+    background-color: var(--lightGrayishBlue);
+}
+
+.counter-add-btn:hover, .counter-remove-btn:hover {
+    cursor: pointer;
+}

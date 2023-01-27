@@ -1,0 +1,149 @@
+.product-container {
+    background-color: var(--white);
+    margin-bottom: 50px;
+}
+
+.img-product-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-product-container img {
+    width: 100%;
+}
+
+.product-btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    
+}
+
+.previous-btn, .next-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 10px 13px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.previous-btn img, .next-btn img {
+    height: 14px;
+}
+
+.previous-btn:hover , .next-btn:hover {
+    cursor: pointer;
+}
+
+.product-info {
+
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    padding-right: 15px;
+    gap: 15px;
+}
+
+.brand {
+    text-transform: uppercase;
+    color: var(--orange);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.product-title {
+    font-size: 30px;
+}
+
+.description {
+    color: var(--darkGrayishBlue);
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.price-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.new-price {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.desc-container {
+    background-color: var(--paleOrange);
+    padding: 4px 8px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.desc {
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.old-price {
+    color: var(--grayishBlue);
+    text-decoration: line-through;
+    font-weight: 700;
+}
+
+
+
+.add-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 18px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.add-btn:hover {
+    cursor: pointer;
+}
+
+
+
+.add-btn {
+    justify-content: center;
+    gap: 13px;
+    background-color: var(--orange);
+    color: var(--white);
+    box-shadow: rgba(194, 78, 1, 0.45) 0px 25px 20px -20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.add-btn:focus {
+    outline: none;
+}
+
+.add-btn img {
+    width: 18px;
+    filter: brightness(0) invert(1);
+}
