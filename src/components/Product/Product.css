@@ -1,3 +1,5 @@
+/* -------------------- Product --------------------*/
+
 .product-container {
     background-color: var(--white);
     margin-bottom: 50px;
@@ -68,6 +70,9 @@
     line-height: 25px;
 }
 
+/* -------------------- Price --------------------*/
+
+
 .price-container {
     display: flex;
     justify-content: space-between;
@@ -105,6 +110,7 @@
     font-weight: 700;
 }
 
+/* -------------------- Buy button --------------------*/
 
 
 .add-btn {
@@ -121,8 +127,6 @@
 .add-btn:hover {
     cursor: pointer;
 }
-
-
 
 .add-btn {
     justify-content: center;

@@ -1,9 +1,13 @@
 import './BurgerMenu.css'
+import { useState } from 'react';
 
 const BurgerMenu = () => {
+
+  const [bmClass, setBMClass] = useState('bm unclicked')
+
   return (
     <>
-        <div className="menu-mb-container">
+        <div className="">
             {/* <ul>
                 <li className="category">Collections</li>
                 <li className="category">Men</li>

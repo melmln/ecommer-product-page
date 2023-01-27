@@ -1,5 +1,5 @@
-/* MOBILE (375px) */
-    
+/* -------------------- Mobile (375px) --------------------*/
+
     nav {
         display: flex;
         width: 100%;
@@ -59,8 +59,7 @@
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 
-    /* active cart */
-
+    /* -------------------- Cart active --------------------*/
     
     .display-container {
         position: absolute;
@@ -113,5 +112,3 @@
     }
 
 
-
-   
