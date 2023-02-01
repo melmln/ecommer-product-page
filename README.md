@@ -43,6 +43,6 @@ Users should be able to:
 ## Author
 
 - Linkedin - [Melany Molina Verdún](https://www.linkedin.com/in/melany-molina-verdun)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/melmln)
+- Frontend Mentor - [@melmln](https://www.frontendmentor.io/profile/melmln)
 
 
